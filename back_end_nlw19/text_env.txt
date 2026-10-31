@@ -1,0 +1,11 @@
+PORT=
+
+# Database
+POSTGRES_URL=
+REDIS_URL=
+
+#Web 
+WEB_URL=
+
+# AI
+OPENAI_API_KEY=

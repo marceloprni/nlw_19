@@ -1,0 +1,43 @@
+npm init -y
+npm i fastify
+npm i tsx typescript @types/node -D
+npx tsc --init
+
+npm i @fastify/cors
+npm i zod fastify-type-provider-zod
+npm i @fastify/swagger @fastify/swagger-ui
+npm install dotenv
+
+npm i @biomejs/biome -D
+
+ctrl + shift + p -> Preference: Open user settings -> 
+{
+    "editor.formatOnSave": true,
+    "[typescript]":  {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit"
+    }
+}
+
+npm install ioredis
+npm install --save-dev @types/node
+
+npm i postgres drizzle-orm
+npm i drizzle-kit -D
+
+npx drizzle-kit generate
+npx drizzle-kit migrate
+
+npm i tsup -D
+
+
+npm i ai @ai-sdk/openai
+
+
+back
+https://app.rocketseat.com.br/jornada/nlw-19-connect/sala/nlw-19-connect-node/grupo/nlw-19-connect-node/aula/after-criando-agente-de-ia-com-vercel-ai-sdk
+
+front
+https://app.rocketseat.com.br/jornada/nlw-19-connect/sala/nlw-19-connect-react

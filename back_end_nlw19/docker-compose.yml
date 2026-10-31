@@ -1,0 +1,24 @@
+services:
+  service-pg:
+    container_name: service-pg
+    image: bitnami/postgresql
+    restart: always
+    ports:
+      - "5439:5432"
+    environment:
+      POSTGRES_USER: nlw19
+      POSTGRES_PASSWORD: nlw18
+      POSTGRES_DB: nlw19
+      TZ: America/Sao_Paulo
+      POSTGRESQL_TIMEZONE: America/Sao_Paulo
+    volumes:
+      - ./postgres-data:/bitnami/postgresql
+
+  service-redis:
+    container_name: service-redis
+    image: bitnami/redis
+    restart: always
+    ports:
+      - "6379:6379"
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
