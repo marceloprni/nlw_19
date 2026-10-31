@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/marce/OneDrive/Desktop/APLICA%C3%87%C3%95ES/rocketseat_nlw_19/front_end_nlw19/web/app/page.tsx"],"sourcesContent":["import { Button } from \"@/components/Button\";\n\nexport default function Home() {\n  return (\n    <main>\n      <div>Hello world!</div>\n      <Button/>\n    </main>\n  );\n}\n"],"names":["Home"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAI;;;;;;0BACL,8OAAC,+HAAM;;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/marce/OneDrive/Desktop/APLICA%C3%87%C3%95ES/rocketseat_nlw_19/front_end_nlw19/web/components/Button.tsx"],"sourcesContent":["\r\n\r\n\r\nexport function Button(): void {\r\n    <button>Enviar</button>\r\n}"],"names":["Button"],"mappings":";;;;;;AAGO,SAASA;kBACZ,8OAAC;kBAAO;;;;;;AACZ"}}]
+}

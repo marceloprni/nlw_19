@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/marce/OneDrive/Desktop/APLICA%C3%87%C3%95ES/rocketseat_nlw_19/front_end_nlw19/web/app/page.tsx"],"sourcesContent":["import logo from '../assets/logo.svg' \nimport Image from 'next/image'\n\nexport default function Home() {\n  return (\n    <main className=\"max-w-1240px mx-auto px-5 py-8 md:py-0 \">\n      <div className=\"h-dvh flex items-center justify-between gap-16 flex-col md:flex-row \">\n        <div className=\"flex flex-col gap-10 w-full max-w-550px\">\n\n        </div>\n      </div>\n    </main>\n  );\n}\n"],"names":["Home","className"],"mappings":";;;;;;AAGe,SAASA;IACtB,qBACE,8OAAC;QAAKC,WAAU;kBACd,cAAA,8OAAC;YAAIA,WAAU;sBACb,cAAA,8OAAC;gBAAIA,WAAU;;;;;;;;;;;;;;;;AAMvB"}}]
+}

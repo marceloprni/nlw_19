@@ -1,0 +1,5 @@
+explorer.CompactFolder - false 
+npm i lucide-react
+npm i @biomejs/biome -D
+
+https://app.rocketseat.com.br/jornada/nlw-19-connect/sala/nlw-19-connect-react/grupo/nlw-19-connect-react/aula/interface-componentes-e-formularios
